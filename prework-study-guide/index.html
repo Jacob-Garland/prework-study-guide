@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -24,9 +25,9 @@
           <li>Elements are enclosed with angle brackets on either side of the tag.</li>
           <li>Every element has an opening and closing tag. The closing tag will have a "/" after the left angle bracket.</li>
         </ul>
-        <h3>Coding Elements of HTML</h3>
+        <br>
+        <h3>HTML Cheatsheet</h3>
         <ul>
-          <li>style: an element that defines CSS</li>
           <li>base: element that defines the base URL</li>
           <li>link: element that connects to an external resource</li>
           <li>meta: element that defines metadata, such as the character set or charset, description, keywords, author, and the viewport</li>
@@ -38,20 +39,33 @@
           <li>img: used for an image element</li>
           <li>br: line break</li>
           <li>a: element that stands for anchor, creates links to the same or other webpages</li>
-          <li>href: a part of the "a" element, no angle brackets. followed by = and URL for link</li>
+          <li>href: a part of an element, no angle brackets. followed by = and URL for link in a relative path</li>
+          <li>rel: relationship between current document and the linked document resource</li>
         </ul>
       </section>
-   
+      <br>
       <section class="card" id="css-section">
         <h2>CSS</h2>
+
+          <li>CSS stylesheets come in two formats: external and internal.</li>
+          <li>Internal stylesheets are contained in the head section of an HTML document, with the rules applying only to that page.</li>
+          <li>External stylesheets are kept in a file seperate from the HTML. Best for Seperation of Concerns.</li>
+          <li>The simpler the code, the better. When styling CSS, code multiple elements into the same style if you're going to be coding them the same anyways.</li>
+          <li>Some styles of CSS include coloring webages, fonts and their alignments, font sizes, font colors, design elements of images and backgrounds, and more.</li>
+        <br>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>style: an element that defines CSS</li>
+          <li>margin: property indicating amount of space around the outside of an element</li>
+          <li>padding: property indicating amount of space around content inside the element</li>
+          <li>border: property indicating to create a border</li>
+          <li>box-shadow: property that adds shadow effects around an elements frame</li>
+          <li>class attribute: a declaration for a new CSS rule based on the element name.</li>
         </ul>
       </section>
-   
+      <br>
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <p>Git commands always start with Git. Bash commands will not. The following are commands you would enter in Gitbash as your Windows terminal:</p>
+        <li>Git commands always start with Git. Bash commands will not. The following are commands you would enter in Gitbash as your Windows terminal</li>
         <ul>
           <li>git status: checks what branch currently working within</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
@@ -65,9 +79,14 @@
           <li>code .: opens VS to code in branch</li>
           <li>ls -al ~/.ssh: lists all SSH keys</li>
           <li>git revert: follow this command in the terminal with the first seven numbers of the SHA to revert to the previous version of code</li>
+          <li>git add -A: commits all files in working branch</li>
+          <li>git commit -m: follow this command with short descriptive text in quotes to commit</li>
+          <li>git checkout main: switches to main branch</li>
+          <li>git pull origin main: pulls feature branch into main branch for pull requests</li>
+          <li>git push origin: pushes changes to repository</li>
         </ul>
       </section>
-   
+      <br>
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
